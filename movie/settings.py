@@ -151,3 +151,7 @@ CORS_ORIGIN_WHITELIST = (
     'https://127.0.0.1:8080'
 )
 CORS_ORIGIN_ALLOW_ALL = True
+
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+LOGIN_REDIRECT_URL = '/'
